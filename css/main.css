@@ -1,5 +1,5 @@
 /* Put your code here */
-.grid{
+.grid {
     display: grid;
 
     /* add number of rows and columns in grid and its size.
@@ -8,5 +8,12 @@
     /* grid-template-columns: 100px auto 150px; */
 
     /* Instead of using grid-tamplate differently for row and column we can use a single line row/ column */
-    grid-template: 100px 200px / 100px auto 150px;
+    grid-template: 100px 200px / 200px auto 150px;
+
+    /* change the position of grid Items. */
+}
+
+.grid div:nth-child(5) {
+    grid-row   : 2 / 3;
+    grid-column: 1 / 2;
 }
