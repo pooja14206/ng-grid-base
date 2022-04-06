@@ -4,6 +4,9 @@
 
     /* add number of rows and columns in grid and its size.
     auto capture the remaining size of the grid for row or column. */
-    grid-template-rows: 100px 200px;
-    grid-template-columns: 100px auto 150px;
+    /* grid-template-rows: 100px 200px; */
+    /* grid-template-columns: 100px auto 150px; */
+
+    /* Instead of using grid-tamplate differently for row and column we can use a single line row/ column */
+    grid-template: 100px 200px / 100px auto 150px;
 }
